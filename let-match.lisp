@@ -22,7 +22,7 @@
 (defpackage :let-match
   (:use :cl)
   (:export
-   #:let-match #:case-match #:matchp))
+   #:let-match #:case-match #:matchp #:var-symbol-p))
 
 (in-package :let-match)
 
